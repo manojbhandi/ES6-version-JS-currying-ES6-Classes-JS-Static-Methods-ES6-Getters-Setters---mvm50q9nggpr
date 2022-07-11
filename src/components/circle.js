@@ -4,3 +4,12 @@
 
 
 // export class using module.exports
+class Circle extends Shape{
+     
+    calculateArea(){
+
+    }
+}
+
+module.exports = Circle;
+const Shape = require('./shape.js');
